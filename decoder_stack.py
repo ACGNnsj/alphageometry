@@ -18,6 +18,8 @@
 from typing import Any, Tuple
 
 import gin
+import sys
+sys.path.append('meliad_lib/meliad')
 from transformer import decoder_stack
 import transformer_layer as tl
 

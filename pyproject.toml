@@ -1,0 +1,43 @@
+[tool.poetry]
+name = "alphageometry"
+version = "0.1.0"
+description = ""
+authors = ["ACGMN <ootopoo@vip.qq.com>"]
+readme = "README.md"
+
+[tool.poetry.dependencies]
+python = ">=3.10,<3.12"
+tensorflow = "^2.13.0"
+array-record = "*"
+tensorflow-datasets = "*"
+tensorflow-io-gcs-filesystem = "*"
+tensorflow-text = "^2.14.0"
+numpy = "*"
+scipy = "*"
+matplotlib = "*"
+gdown = "*"
+jax = "<0.4.7"
+jaxlib = "<0.4.7"
+flax = "<0.6.0"
+gin-config = "*"
+gin = "*"
+t5 = "*"
+sentencepiece = "*"
+absl-py = "*"
+clu = "*"
+optax = "*"
+seqio = "^0.0.19"
+seqio-nightly = "^0.0.18.dev20240310"
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
+
+[[tool.poetry.source]]
+name = "aliyun-source"
+url = "https://mirrors.aliyun.com/pypi/simple/"
+priority = "default"
+
+[[tool.poetry.source]]
+name = "tuna-source"
+url = "https://pypi.tuna.tsinghua.edu.cn/simple/"
