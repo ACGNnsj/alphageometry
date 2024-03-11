@@ -12,11 +12,9 @@
 # See the License for the specific language governing permissions and
 # limitations under the License.
 # ==============================================================================
-
 DATA=ag_ckpt_vocab
 MELIAD_PATH=meliad_lib/meliad
 export PYTHONPATH=$PYTHONPATH:$MELIAD_PATH
-
 python problem_test.py
 python geometry_test.py
 python graph_utils_test.py
